@@ -15,7 +15,7 @@
 	var defaultKey		= 'JEjPkt3Bin4iIYyqMNMOTOBsiHfNImoUjmy5qOgIW9jJb7r4', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1671256417], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Selectr0n Data Graph', // Replaces Xively logo in the header
-		dataDuration	= '7days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataDuration	= 'week', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
 		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
